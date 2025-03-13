@@ -5,6 +5,6 @@ from pydantic import BaseModel
 
 
 class BotGuildsResponse(BaseModel):
-    """bot.guilds request"""
+    """bot.guilds response"""
 
     guild_ids: set[str]
