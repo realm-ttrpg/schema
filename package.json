@@ -7,7 +7,7 @@
 		"commitlint-config-gitmoji": "^2.3.1",
 		"gitmoji-cli": "^8.5.0",
 		"husky": "^9.1.7",
-		"lint-staged": "^15.4.3",
+		"nano-staged": "^0.8.0",
 		"prettier": "^3.0.3",
 		"semantic-release": "^24.2.3",
 		"semantic-release-gitmoji": "^1.6.8",
@@ -16,7 +16,7 @@
 	"engines": {
 		"node": "^22"
 	},
-	"lint-staged": {
+	"nano-staged": {
 		"*": [
 			"prettier -luw"
 		],
